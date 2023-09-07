@@ -1,5 +1,5 @@
-#ifndef WM8731_H_
-#define WM8731_H_
+#ifndef DDS_H_
+#define DDS_H_
 
 //Include required header files
 #include <stdbool.h> //Boolean variable type "bool" and "true"/"false" constants.
@@ -12,4 +12,4 @@ void DDS_sfx2();
 void DDS_sfx3();
 void DDS_sfx4();
 
-#endif /*WM8731_H_*/
+#endif /*DDS_H_*/

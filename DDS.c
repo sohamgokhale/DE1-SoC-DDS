@@ -2,7 +2,7 @@
  * DDS driver for WM8731 Audio Codec on DE-1 SoC
  * ----------------------------
  * By: Soham Gokhale
- * For: University of Leeds - ELEC5620M - Mini Project Group 18
+ * For: University of Leeds - ELEC5620M
  * Date: 26th Apr 2023
  *
  * Description
@@ -61,41 +61,15 @@ void DDS_note(notes_t note, unsigned short octave, unsigned long duration){
 }
 
 
-// Simple Sound Effect to indicate cursor movement
+// Example Sound Effect 1
 void DDS_sfx1(){
 	DDS_note(C,3,125);
 	DDS_note(G,3,200);
 }
 
-// Simple Sound Effect to indicate player move
+// Example Sound Effect 2
 void DDS_sfx2(){
 	DDS_note(C,4,125);
 	DDS_note(G,4,125);
 	DDS_note(C,5,200);
-}
-
-// Simple Sound Effect to indicate winner
-void DDS_sfx3(){
-	DDS_note(A,4,125);
-	DDS_note(C,5,125);
-	DDS_note(E,5,125);
-	DDS_note(C,5,125);
-	DDS_note(E,5,125);
-	DDS_note(A,5,125);
-	DDS_note(E,5,125);
-	DDS_note(A,5,125);
-	DDS_note(C,6,250);
-}
-
-// Simple Sound Effect to indicate start of new game
-void DDS_sfx4(){
-	DDS_note(G,3,250);
-	DDS_note(C,3,250);
-	DDS_note(E,3,500);
-}
-
-// Simple Sound Effect to indicate cursor movement
-void DDS_sfx5(){
-	DDS_note(G,4,125);
-	DDS_note(C,4,200);
 }
